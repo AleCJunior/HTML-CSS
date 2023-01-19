@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospedagem de Videos</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>	Este video está hospedado no meu proprio servidor!</p>
+    <video src="midia/background.mp4" width="500" muted autoplay loop controls></video>
+
+    <h2>agora o esquema de varios videos (tem até capa):</h2>
+    <video width="500" poster="imagens/thumb.jpg" controls>
+        <source src="midia/background.mp4" type="video/mp4">
+        <source src="midia/background.m4v" type="video/mp4">
+        <source src="midia/background.ogv" type="video/ogg">
+        <p>Infelizmente seu navegador não é compativel com o video.</p>
+    </video>
+    <h1>Agora com hospedagem Externa!</h1>
+    <p>Youtube:</p>
+    <iframe width="780" height="439" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="Incorporação de vídeos externos - @Curso em Vídeo HTML5 e CSS3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>

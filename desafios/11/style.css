@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.espaco {
+    background-image: url(imagens/espaco.jpg);
+    background-size: contain;
+}
+
+img.astronauta {
+    display: flex;
+    position: relative;
+    margin: auto;
+    padding: 100px;
+}
+
+.layout {
+    width: 1366px;
+    height: 768px;
+  
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
